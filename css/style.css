@@ -1,0 +1,31 @@
+* {
+    transition: all 0.5s;
+}
+
+button {
+    width: 160px;
+    height: 45px;
+}
+
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-color: rgba(255, 255, 255, 0.0);
+    background-blend-mode: lighten;
+}
+
+#container {
+    /* background-color: beige; */
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    top: calc(50% - 10rem);
+    left: calc(50% - 10rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
